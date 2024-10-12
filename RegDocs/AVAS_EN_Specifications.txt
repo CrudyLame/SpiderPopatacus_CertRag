@@ -1,0 +1,210 @@
+6.  
+Specifications 
+6.1. 
+General specifications 
+For the purpose of this Regulation, the vehicle shall fulfil the following 
+requirements: 
+6.2. 
+Acoustics characteristics 
+The sound emitted by the vehicle type submitted for approval shall be measured 
+by the methods described in Annex 3 to this Regulation. 
+The specifications of this Regulation are applicable for the speed range of 
+greater than 0 km/h up to and inclusive 20 km/h. Operation of an AVAS is 
+permitted at vehicle speeds outside the specification range. AVAS may be 
+operational independent of the operation of an internal combustion engine inside 
+or outside of the specified operation range. 
+If the vehicle that is not equipped with an AVAS fulfils the overall levels as 
+specified in Table 2 below with a margin of +3 dB(A), the specification for 
+one-third octave bands and the frequency shift do not apply. 
+(updated according to Supplement 1 to the 01 series of amendments – Date of 
+entry into force: 11 January 2020) 
+
+This document has been prepared by Technology Consulting Center LLC. 
+Internal Use Only. Prepared on 21.02.2023. 
+UNECE R 138-01 
+ 
+8 
+6.2.1. 
+Constant speed tests 
+6.2.1.1. 
+The test speeds for approval are 10 km/h and 20 km/h. 
+6.2.1.2. 
+When tested under the conditions of Annex 3 paragraph 3.3.2., the vehicle shall 
+emit a sound: 
+(a) 
+That has a minimum overall sound pressure level for the applicable test 
+speed according to Table 2 of paragraph 6.2.8.; 
+(b) 
+That has at least two of the one-third octave bands according to Table 2 
+of paragraph 6.2.8. At least one of these bands shall be below or within 
+the 1,600 Hz one-third octave band; 
+(c) 
+With minimum sound pressure levels in the chosen bands for the 
+applicable test speed according to Table 2 of paragraph 6.2.8., column 3 
+or column 4. 
+6.2.1.3. 
+If after a vehicle is tested in accordance with Annex 3 paragraph 3.3.2., for ten 
+consecutive times within a series of measurements without recording a valid 
+measurement because the vehicle's internal combustion engine (ICE) remains 
+active or restarts and interferes with the measurements, the vehicle is exempted 
+from this particular test. 
+6.2.2. 
+Reversing test 
+6.2.2.1. 
+When tested under the conditions of Annex 3 paragraph 3.3.3. the vehicle shall 
+emit a sound that has a minimum overall sound pressure level according to 
+Table 2 of paragraph 6.2.8., column 5. 
+6.2.2.2. 
+If after a vehicle is tested in accordance with Annex 3, paragraph 3.3.3., for ten 
+consecutive times within a series of measurements without recording a valid 
+measurement because the vehicle's ICE remains active or restarts and interferes 
+with the measurements, the vehicle is exempted from this particular test. 
+6.2.3. 
+Frequency shift to signify acceleration and deceleration 
+6.2.3.1. 
+The intention of frequency shift is to acoustically inform road users about the 
+change in vehicle speed. 
+6.2.3.2. 
+When tested under the conditions of Annex 3 paragraph 4, at least one tone 
+within the frequency range as specified in paragraph 6.2.8. emitted by the 
+vehicle shall vary proportionally with speed within each individual gear ratio 
+by an average of at least 0.8 % per 1 km/h in the speed range from 5 km/h to 
+20 km/h inclusive when driving in forward direction. In case more than one 
+frequency is shifted, only one frequency shift needs to fulfil the requirements. 
+6.2.4. 
+Stationary sound 
+ 
+The vehicle may emit a sound when stationary. 
+6.2.5. 
+Driver selectable sounds 
+The vehicle manufacturer may define alternative sounds which can be selected 
+by the driver; each of these sounds shall be in compliance and approved with 
+the provisions in paragraphs 6.2.1. to 6.2.3. 
+6.2.7. 
+Pause function 
+ 
+Any pause function as defined in paragraph 2.7. shall be prohibited.  
+
+This document has been prepared by Technology Consulting Center LLC. 
+Internal Use Only. Prepared on 21.02.2023. 
+UNECE R 138-01 
+ 
+ 
+9 
+ 
+(updated according to Supplement 1 to the 01 series of amendments – Date of 
+entry into force: 11 January 2020) 
+6.2.8. 
+Specifications on maximum sound level for AVAS 
+When tested under the conditions of Annex 3 paragraph 3.3.2., a vehicle which 
+is equipped with an AVAS, shall not emit an overall sound level of more than 
+75 dB(A), if driving in forward direction.4 
+(updated according to Supplement 1 to the 01 series of amendments – Date of 
+entry into force: 11 January 2020) 
+ 
+ 
+ 
+4  The maximum overall sound pressure level of 75 dB(A) measured at a distance of 2 m is 
+corresponding to the overall sound pressure level of 66 dB(A) measured at a distance of 7.5 m. The 
+limit value of 66 dB(A) at a distance of 7.5 m is the lowest permitted maximum value in Regulations 
+established under the 1958 Agreement. 
+
+This document has been prepared by Technology Consulting Center LLC. 
+Internal Use Only. Prepared on 21.02.2023. 
+UNECE R 138-01 
+ 
+10 
+6.2.9. 
+Minimum sound levels 
+The sound level measured in accordance with the provisions of Annex 3 to this 
+Regulation, mathematically rounded to the nearest integer value, shall have at 
+least the followings values: 
+Table 2 
+Minimum Sound Level Requirements in dB(A) 
+Frequency 
+in Hz 
+Constant Speed Test 
+paragraph 3.3.2. 
+(10 km/h) 
+Constant Speed Test 
+paragraph 3.3.2. 
+(20 km/h) 
+Reversing Test 
+paragraph 3.3.3.  
+Column 1 
+Column 2 
+Column 3 
+Column 4 
+Column 5 
+Overall 
+50 
+56 
+47 
+1/3rd Octave Bands 
+160 
+45 
+50 
+ 
+200 
+44 
+49 
+250 
+43 
+48 
+315 
+44 
+49 
+400 
+45 
+50 
+500 
+45 
+50 
+630 
+46 
+51 
+800 
+46 
+51 
+1,000 
+46 
+51 
+1,250 
+46 
+51 
+1,600 
+44 
+49 
+2,000 
+42 
+47 
+2,500 
+39 
+44 
+3,150 
+36 
+41 
+4,000 
+34 
+39 
+5,000 
+31 
+36 
+ 
+(updated according to Supplement 1 to the 01 series of amendments – Date of 
+entry into force: 11 January 2020) 
+7. 
+Modification and extension of approval of a 
+vehicle type 
+7.1. 
+Every modification of the vehicle type shall be notified to the Type Approval 
+Authority which approved the vehicle type. The Type Approval Authority may 
+then either: 
+7.1.1. 
+consider that the modifications made are unlikely to have an appreciable 
+adverse effect and that in any case the vehicle still complies with the 
+requirements, or 
+7.1.2. 
+require a further test report from the Technical Service responsible for 
+conducting the tests. 
+

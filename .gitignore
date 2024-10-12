@@ -1,0 +1,9 @@
+.env
+answer_question.ipynb
+/sources
+*__pycache__
+create_knowledge_base.ipynb
+nick_final.ipynb
+nick_rag.py
+rag_base.ipynb
+/data
