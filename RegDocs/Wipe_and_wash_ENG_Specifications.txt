@@ -1,0 +1,67 @@
+3 Technical requirements 
+ 
+3.1 Windscreen wiper system 
+ 
+3.1.1 Each vehicle shall be equipped with at least one automatic windscreen wiper system. 
+3.1.2 The area of the wiping zone shall not be less than 80 % of zone B and not less than 98 % of zone 
+A where the size and dimensions of the latter zones are defined in accordance with Appendix 18 of [2]. 
+3.1.3 The windscreen wiping zone shall meet the minimum requirements of 3.1.2 when the wiper is 
+tested at the movement rates conforming to 3.1.4.2 in the conditions described in 4.1.11. 
+3.1.4 The wiper mechanism shall support at least two operating movement rates. 
+3.1.4.1 The first rate: not less than 10 and not greater than 55 wiping cycles per minute. 
+3.1.4.2 The second rate: not less than 45 wiping cycles per minute. 
+3.1.5 The difference between the highest rate and one of the slowest rates shall be at least 15 wiping 
+cycles per minute. 
+3.1.6 The rates specified in 3.1.4 should be checked in the conditions described in 4.1.1—4.1.6 and 
+4.1.8. 
+3.1.7 The intermittent duty of the system may be used to meet the requirements of 3.1.4 upon the 
+condition that one of the rates conforms to 3.1.4.1 and the other one obtained by interruption of the main rate is 
+at least 10 wiping cycles per minute. 
+3.1.8 After the windscreen wiper system is switched off using its control, the wiper levers and blades 
+shall automatically return to the stopped (parking) position. 
+3.1.9 The system shall withstand its forced blocking for 15 s. The use of automatic safety devices is 
+permitted providing that the recovery of normal operation will not require activation of any controls other than 
+the wiper control. The test conditions and test method are described in 5.1.7. 
+3.1.10 Aerodynamic effects due to the windscreen size and dimensions possibly affecting the system 
+performance should be evaluated in the following conditions. 
+3.1.10.1 Under air flows moving at a speed equal to 80 % of the maximum vehicle speed or to 
+160 km/h, whichever is less, and the maximum wiper blade speed, the system shall wipe zone A as required in 
+3.1.2 with no performance degradation. Prior to testing, zone A of the windscreen is subject to treatment in 
+accordance with 4.1.8 and 4.1.9. During the tests, the cleaning edge of the wiper blade(s) shall remain in 
+contact with the windscreen. Full separation of the cleaning edge from the windscreen surface is prohibited. 
+The cleaning edge of the wiper blade(s) shall remain in contact with the windscreen within the limits of zone A 
+dimensions specified in 3.1.2 for each full wiping cycle. Any partial separation of the cleaning edge during 
+either direct or reverse movements of the wiper blade is not permitted. 
+3.1.11 If the lead or the cleaning edge(s) of the wiper blade(s) are outside zone B indicated in 3.1.2 in 
+the stopped (parking) position, manual withdrawal of the blade aside from the windscreen surface shall be 
+possible to enable manual wiping of the surface. 
+ГОСТ 33993-2016 
+3 
+ 
+ 
+ 
+3.1.12 The windscreen wiper system shall work without any decrease of its operating rate for 2 min 
+when the windscreen is dry and the ambient air temperature is minus (18 + 3) °C. The respective test conditions 
+are specified in 4.1.13. 
+ 
+3.2 Windscreen washer system 
+ 
+3.2.1 Each vehicle shall be equipped with a windscreen washer system with its working state linked to 
+activation of the master switch on the vehicle. The system shall withstand the conditions where the nozzles are 
+blocked and where it operates as described in 4.2.1.2—4.2.1.5. 
+3.2.2 The performance of the system shall not degrade under exposure to temperature cycles specified 
+in 4.2.3 and 4.2.4. 
+3.2.3 The windscreen washer system shall ensure that liquid is sprayed over the stated windscreen 
+regions without any traces of leaks, pipe disconnections or malfunctions in normal operating conditions at 
+ambient air temperatures from minus (18 ± 3) °C to 80 °C. In addition, no traces of leaks or disconnections of 
+any pipes shall be observed in the system when the nozzles are blocked. 
+3.2.4 The system shall supply liquid in quantities sufficient for wiping 60 % of zone A indicated in 
+3.1.2 in the conditions described in 4.2.5. 
+3.2.5 The windscreen washer system shall switch on after manual activation of its control. Besides 
+this, switching on and off of the system may be synchronised with any other system of the vehicle. 
+3.2.6 The capacity of the tank for washing liquid shall not be less than 1 l. 
+
+ 
+ 
+ 
+ 

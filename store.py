@@ -45,7 +45,7 @@ class FAISSVectorStore:
 
     def create_faiss_index(self, documents):
         text_splitter = RecursiveCharacterTextSplitter.from_tiktoken_encoder(
-            chunk_size=150, chunk_overlap=70
+            chunk_size=400, chunk_overlap=150
         )
 
         doc_splits = []

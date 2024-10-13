@@ -1,0 +1,246 @@
+4.1 General
+4.1.1 Each vehicle shall be equipped with heating and ventilation systems for its manned space.
+Conditioning systems are mandatory for vehicles of Category М3 and Class III, and driver's
+workplaces (cabins) of vehicles of Category М3, Class I1), and recommended for other vehicles.
+For modifications УХЛ and ХЛ of Categories N2, N3, M 2 and М3 and Classes II and III, vehicles are
+additionally equipped with a redundant (emergency) heating system conforming to 4.2.9. This requirement is
+optional for other vehicles.
+4.1.2 Heating, ventilation and conditioning systems shall be supplied with devices controlling their
+duty, air flowrate, direction of airflow from the outlets, and distribution of airflows over the driver's
+workplace areas (head zone, feet zone and waist zone).
+For vehicles of Categories М1 and N1 equipped with a climate control system, switching a
+temperature control for the manned space to adjacent positions (if they are discrete) shall not lead to
+temperature changes in the manned space in excess of 3 °C.
+4.1.3 Control devices of ventilation, heating and conditioning systems shall be designed to disable
+such systems completely when required. Individual components of these systems operating automatically
+from the air flow associated with the vehicle movement (e.g., exhaust valves on the body) may still continue
+functioning in this case.
+4.1.4 If a conditioning system is installed, the vehicle need not be equipped with ventilation system
+components that duplicate the functions of the conditioning system.
+4.1.5 Devices intended to perform individual functions of heating, ventilation and conditioning
+systems may be combined in a common unit or separate units, as selected by the design.
+________________
+1)
+ The Categories are defined in [1].
+2
+ГОСТ 30593-2015
+4.2 Requirements for heating system
+4.2.1 The heating system shall either operate with an open air inflow, or support the selection of such
+operation mode. The flowrate of open air through the heating system shall ensure that the requirements of
+4.3.1 are met.
+4.2.2 The duty of the heating system and the heat-protection efficiency of the body shall be sufficient
+to maintain the thermal conditions in the manned space that are specified in Table 1 for different vehicle
+modifications.
+4.2.3 The thermal conditions of Table 1 shall be ensured at an ambient temperature of minus 25 °C
+(for vehicle modification У) or minus 50 °C (for vehicle modifications УХЛ and ХЛ), and shall be achieved
+at an air velocity (mobility) not exceeding 0.6 m/s in the head and waist zones of the driver (crew) and
+passengers. The air velocity (mobility) in these zones may increase to 1 m/s during the first 10 min (for
+vehicle modification У) or 15 min (for vehicle modifications УХЛ and ХЛ) after the start of driving.
+The air temperature in the driver's feet zone in steady-state driving conditions shall be by (3 – 10) °C
+higher than the one in the driver's head zone.
+4.2.4 The heating system and the vehicle body shall be designed to avoid any ingress of non-
+controlled open air flows into the manned space, for example, through the body seals (of windows, doors or
+hatches), service holes, or interfaces between the structural members.
+For vehicles of Category М3 and Class I, non-tightness in the adjoining areas of the hinges or
+top/bottom edges of passenger doors and the body or floor (footboard) is permitted upon the condition that
+the open air flows penetrating due to such non-tightness do not reach the breathing zone of the passengers
+occupying the seats behind the respective doors.
+T a b l e 1 — Requirements for parameters of thermal environment in manned space of vehicle with
+switched-on heating system
+Vehicle category
+Manned space zone of concern
+M1, N
+M3, Class I
+M2, M3,
+Classes A and II;
+specialized
+passenger vehicles
+M2, M3,
+Classes B and III
+Vehicle modification
+УХЛ and
+ УХЛ and
+ УХЛ and
+ УХЛ and
+У
+ У
+ У
+ У
+ХЛ
+ ХЛ
+ ХЛ
+ ХЛ
+Temperature values, °C, not less than:
+Feet zone of driver
+ 18
+ 16
+ 18
+ 16
+ 18
+ 16
+ 18
+ 16
+Waist zone of driver1)
+ 12
+ 10
+ 12
+ 10
+ 12
+ 10
+ 12
+ 10
+Head zone of driver
+ 12
+ 10
+ 12
+ 10
+ 12
+ 10
+ 12
+ 10
+Time to achieve temperature
+ 15
+ 20
+ 20
+ 30
+ 20
+ 30
+ 20
+ 30
+from start of driving, min
+Steady-state temperature values, °C, not less than:
+Feet zone of passenger
+ 20
+ 18
+ —
+ 0
+ —
+ —
+ 225)
+ 20
+(crew member)
+ at first row of
+seats
+Waist zone of passenger
+ 20
+ 18
+ 152)
+ 103)
+ 204)
+ 184)
+ 225)
+ 205)
+(crew member)
+ (seated);
+for sleeping berth
+123)
+ (if available)
+(standing)
+Head zone of sitting passenger
+ —
+ —
+ —
+ —
+ 22
+ 20
+ 225)
+ 205)
+(crew member)
+1)
+ Does not apply to places equipped with electric heating or with seat cushion heating equivalent in its effect.
+3
+ГОСТ 30593-2015
+Table 1 (continued)
+2)
+ The temperature drop to 12 °C is permitted on seats located immediately behind the entrance door.
+3)
+ The temperature drop to 10 °C (for vehicle modification У) or 8 °C (for vehicle modifications УХЛ and ХЛ) is
+permitted on a standing site closer than 1 m to the entrance door.
+4)
+ The temperature drop to 18 °C (for vehicle modification У) or 15 °C (for vehicle modifications УХЛ and ХЛ)
+is permitted on seats located immediately behind the entrance door.
+5)
+ The spread of steady-state temperatures in the reference zones (feet, waist and head zones of passengers (crew
+members)) within the compartment shall not exceed 5 °C not taking into account the temperature rise in local areas
+adjacent to external surfaces of heaters and their air pipes, and in areas where the heated air flow is immediately
+directed to.
+4.2.5 The temperature of those heating system parts that may possibly be touched by the driver
+(crew) or the passengers in the normal driving conditions shall rise above 70 °C for metallic surfaces or
+80 °C for surfaces made of other materials or provided with a non-metallic coating.
+4.2.6 The temperature of the heated air supplied to the manned space and measured at the centre of
+the outlet shall not exceed 150 °C.
+4.2.7 Vehicles verified against the requirements of [2] and vehicles with heating systems taking the
+heat from engine coolant (or analogous liquid if the loops of the heating system and the engine cooling
+system are separated from each other) are deemed to be compliant with the requirements of 4.2.5 and 4.2.6.
+4.2.8 When the heating system is switched off, the heating temperature of any component or any
+surface section inside the manned space shall not rise above 30 °C due to residual effects of the coolant, or
+due to heat releases of the engine or other vehicle assemblies and systems.
+4.2.9 Any redundant (emergency) heating system of the vehicle shall be either separated from the
+engine cooling system, or shall enable disconnection from it.
+The redundant (emergency) heating system shall be designed to maintain air temperatures not less
+than 18 °C in the areas of the driver's workplace and the berth (if any) for 8 h at an ambient temperature of
+minus 50 °C without the need for recharging the batteries or for refuelling.
+4.3 Requirements for ventilation system
+4.3.1 A system of forced ventilation, operating either separately or in part of heating systems
+conforming to 4.2.1, and a conditioning system conforming to 4.4.1 and 4.4.2 shall provide the following
+inflow of free (open) air to the manned space:
+- not less than 30 m3 /h per each person for vehicles of Categories M and N with up to and including
+five seats (with the driver's workplace among them), and 7 m3/h per each next passenger in addition;
+- not less than 120 m3/h supplied to the driver's workplace (taking into account the flowrate for blow-
+off of the glazing if required by the design) and not less than 7 m3/h per each person for vehicles of
+Categories М2 and М3 (Classes II and III);
+- not less than 180 m 3/h supplied to the driver's workplace (taking into account the flowrate for off of
+the glazing if required by the design) and not less than 7 m3/h per each person for vehicles of Category М3
+and Class I.
+4.3.2 The ventilation system shall ensure that 15 min after the start of motion, the temperature in the
+manned space will drop from an initial temperature at least 1.5 times greater than the ambient one to a
+temperature at most 3 °C higher than the ambient temperature, if the ambient temperature is (30 ± 3) °C and
+the total solar intensity is 1000 W/m2.
+4.3.3 The ventilation system shall be suitable for maintaining the air velocity (mobility) in the head
+and waist zones of the driver (screw) and passengers within the range of (0.5 – 1.5) m/s.
+4.3.4 If the ambient temperature is above 17 °C, the air supplied (pumped) to the cabin and the
+manned space shall not be heated by more than 3 °C as compared to the ambient temperature.
+This requirement shall not apply if the driver's workplace is equipped with a conditioning system or
+a separate fan, and complying with the requirements of 4.3.2 is achieved by the use of natural ventilation
+while meeting the requirements of 4.2.8.
+4
+ГОСТ 30593-2015
+4.4 Requirements for conditioning system (if available)
+4.4.1 The conditioning system shall either operate with an open air inflow, or support the selection of
+such operation mode. The flowrate of open air through the conditioning system shall ensure that the
+requirements of 4.3.1 are met.
+4.4.2 The conditioning system shall provide the means for controlling generation and direction of air
+flows. The overall switch-on/switch-off of the conditioning system is done from the driver's workplace.
+Outlets of each conditioning system for passenger compartments shall be designed to supply the
+cooled air into areas that are free of passengers (crew) in normal operating conditions (upper zone of the
+compartment, passages, sites at the doors, etc.). For vehicle Categories М1, N, М2 and М3, Classes A, I and
+II, and for specialized vehicles, this requirement is considered satisfied if the outlets are equipped with
+devices (headers, shutters, blinds, or similar) capable of changing the direction and intensity of air flows
+from at least one passenger place.
+Vehicles of Categories М2 and М3 and Classes B and III, shall be designed to provide an additional
+supply of the cooled air through individual channels to each passenger place, with possible control of the air
+flow intensity and direction, and with complete disabling the air flow if necessary.
+Providing individual channels is not required if the automatic control of the conditioning system
+ensures that the specified temperature is maintained, and the spread of steady-state air temperatures along the
+length of the passenger compartment is at most 3 °C at the passenger and crew seats. Upon that, the cooled
+air flow shall not be directed immediately to human breathing zones.
+4.4.3 The conditioning system shall ensure that the air temperature in head zones of the driver
+(crew) and passengers in the manned space will decrease within 10 min for vehicles of Categories М1 and N
+or 20 min for vehicles of Categories М 2 and М3 after the conditioner start-up time (immediately after the
+engine start-up) from an initial temperature at least 1.5 times greater than the ambient one to a temperature at
+most 3 °C higher than the ambient temperature, if the ambient temperature is (30 ± 3) °C and the total solar
+intensity is 1000 W/m2.
+The above temperatures shall be achieved at an air velocity (mobility) not exceeding 0.3 m/s in head
+zones of the driver (passengers). The air velocity (mobility) in these zones may increase to 0.5 m/s within the
+first 5 min for vehicles of Categories М1 and N or 10 min for vehicles of Categories М2 and М3 after the
+conditioning system is started.
+4.4.4 The conditioning system shall not decrease the relative humidity in the manned space below
+30 % in steady-state driving conditions.
+4.4.5 The temperature of those conditioning system parts (excluding the outlets for the cooled air)
+that may possibly be touched by the driver (crew) or the passengers in normal driving conditions shall not
+decrease below 15 °C.
+4.4.6 The air temperature at the output of the conditioning system shall not be less than 0 °C.
+4.4.7 A coolant used in the conditioning system shall not belong to substances depleting the ozone
+layer, in accordance with [3].
+4.4.8 Vehicles equipped with a conditioning system that meets the requirements 4.4 are deemed
+conforming to clauses 4.3.2-4.3.4 of this Standard.

@@ -1,0 +1,430 @@
+ 5. 
+ 
+General requirements 
+5.1. 
+To comply with this Regulation, vehicles shall be equipped with a brake 
+assist system meeting the functional requirements specified in paragraph 6. of 
+this Regulation. Compliance with these requirements shall be demonstrated 
+by meeting the provisions of paragraphs 8. or 9. of this Regulation under the 
+test requirements specified in paragraph 7. of this Regulation. In addition to 
+the requirements of this Regulation, vehicles equipped with a brake assist 
+system shall also be equipped with ABS in accordance with technical 
+requirements of UN Regulation 13-H. 
+ 
+(updated according to Supplement 2 to the original version of the Regulation – 
+Date of entry into force: 11 January 2020) 
+5.2. 
+The BAS shall be so designed, constructed and fitted as to enable the vehicle 
+in normal use, despite the vibration to which it may be subjected, to comply 
+with the provisions of this Regulation. 
+5.3. 
+In particular, the BAS shall be so designed, constructed and fitted as to be 
+able to resist the corroding and ageing phenomena to which it is exposed. 
+5.4. 
+The effectiveness of the BAS shall not be adversely affected by magnetic or 
+electrical fields. This shall be demonstrated by fulfilling the technical 
+requirements and respecting the transitional provisions of Regulation No. 10 
+by applying: 
+ 
+ 
+ 
+3 The distinguishing numbers of the Contracting Parties to the 1958 Agreement are reproduced in 
+Annex 3 to the Consolidated Resolution on the Construction of Vehicles (R.E.3), document 
+ECE/TRANS/WP.29/78/Rev. 4, Annex 3 - 
+www.unece.org/trans/main/wp29/wp29wgs/wp29gen/wp29resolutions.html 
+This document has been prepared by Technology Consulting Center LLC. 
+Internal Use Only. Prepared on 21.02.2023. 
+UNECE R 139-00 
+ 
+6 
+(a) 
+The 03 series of amendments for vehicles without a coupling system 
+for charging the Rechargeable Electric Energy Storage System 
+(traction batteries); 
+(b) 
+The 04 series of amendments for vehicles with a coupling system for 
+charging the Rechargeable Electric Energy Storage System (traction 
+batteries). 
+5.5. 
+The assessment of the safety aspects of BAS shall be included in the overall 
+safety assessment of the braking system as specified in Regulation No. 13-H 
+requirements associated with complex electronic control systems. This is 
+deemed to be fulfilled on the presentation of a Regulation No. 13-H 
+certificate which includes the BAS to be approved. 
+5.6. 
+Provisions for the periodic technical inspection of electronic brake assist 
+systems 
+5.6.1. 
+It shall be possible at a periodic technical inspection to confirm the correct 
+operational status by visual observation of the warning signals following a 
+power-on. 
+5.6.2. 
+At the time of type approval, the means implemented to protect against 
+simple unauthorized modification of the operation of the warning signals 
+shall be confidentially outlined. Alternatively, this protection requirement is 
+fulfilled when a secondary means of checking the correct operational status is 
+available. 
+ 
+ 6. 
+ 
+Functional requirements 
+6.1. 
+General performance characteristics for category "A" BAS systems 
+ 
+When an emergency condition has been sensed by a relative high pedal force, 
+the additional pedal force to cause full cycling of the ABS shall be reduced 
+compared to the pedal force required without the BAS system in operation. 
+ 
+Compliance with this requirement is demonstrated if the provisions of 
+paragraphs 8.1. to 8.3. of this Regulation are met. 
+6.2. 
+General performance characteristics for category "B" BAS systems 
+ 
+When an emergency condition has been sensed, at least by a very fast 
+application of the pedal, the BAS system shall raise the pressure to deliver 
+the maximum achievable braking rate or cause full cycling of the ABS. 
+ 
+Compliance with this requirement is demonstrated if the provisions of 
+paragraphs 9.1. to 9.3. of this Regulation are met. 
+ 
+ 7. 
+ 
+General test requirements 
+7.1. 
+Variables 
+ 
+While performing the tests described in this Regulation, the following 
+variables shall be measured: 
+7.1.1. 
+Brake pedal force, Fp ; 
+7.1.2. 
+Vehicle velocity, vx ; 
+This document has been prepared by Technology Consulting Center LLC. 
+Internal Use Only. Prepared on 21.02.2023. 
+UNECE R 139-00 
+ 
+7 
+7.1.3. 
+Vehicle deceleration, ax ; 
+7.1.4. 
+Brake temperature, Td ; 
+7.1.5. 
+Brake pressure, P, where applicable; 
+7.1.6 
+Brake pedal speed, vp, measured at the centre of the pedal plate or at a 
+position on the pedal mechanism where the displacement is proportional to 
+the displacement at the centre of the pedal plate allowing simple calibration 
+of the measurement. 
+7.2. 
+Measuring equipment 
+7.2.1. 
+The variables listed in paragraph 7.1. above shall be measured by means of 
+appropriate transducers. Accuracy, operating ranges, filtering techniques, 
+data processing and other requirements are described in ISO Standard 15037-
+1: 2006. 
+7.2.2. 
+Accuracy of pedal force and disc temperature measurements shall be as 
+follows: 
+Variable range 
+system 
+Typical 
+operating range 
+of the 
+transducers 
+Recommended 
+maximum recording 
+errors 
+Pedal force 
+0 to 2,000 N 
+±10 N 
+Brake 
+temperature 
+0 – 1,000 °C 
+±5 °C 
+Brake 
+pressure* 
+0 – 20 MPa* 
+±100 kPa* 
+*  Applicable as specified in paragraph 8.2.5. 
+7.2.3. 
+Details on analogue and digital data processing of the BAS test procedures 
+are described in Annex 4 to this Regulation. A sampling rate for data 
+acquisition of at least 500 Hz is required. 
+7.2.4. 
+Alternative measuring methods to those referred to in paragraph 7.2.3. may be 
+allowed, provided they demonstrate at least an equivalent level of precision. 
+7.3. 
+Test conditions 
+7.3.1. 
+Test vehicle loading condition: The vehicle shall be unladen. There may be, 
+in addition to the driver, a second person on the front seat who is responsible 
+for noting the results of the tests. 
+7.3.2. 
+Braking tests shall be carried out on a dry surface affording good adhesion.  
+7.4. 
+Test method 
+7.4.1. 
+The tests as described in paragraphs 8. and 9. of this section shall be carried 
+out from a test speed of 100 ± 2 km/h. The vehicle shall be driven at the test 
+speed in a straight line. 
+7.4.2. 
+The average temperature of the service brakes on the hottest axle of the 
+vehicle, measured inside the brake linings or on the braking path of the disc 
+or drum, shall be between 65 and 100°C prior to any brake application. 
+This document has been prepared by Technology Consulting Center LLC. 
+Internal Use Only. Prepared on 21.02.2023. 
+UNECE R 139-00 
+ 
+8 
+7.4.3. 
+For the tests the reference time, t0, is defined as the moment when the brake 
+pedal force reaches 20 N. 
+ 
+Note: For vehicles equipped with a brake system assisted by an energy 
+source, the applied pedal force necessary depends on the energy level that 
+exists in the energy storage device. Therefore, sufficient energy level shall be 
+ensured at the beginning of the test. 
+ 
+ 8. 
+ 
+Assessment of the presence of a category "A" BAS  
+ 
+A category "A" BAS shall meet the test requirements contained in 
+paragraphs 8.1. and 8.2. 
+8.1. 
+Test 1: Reference test to determine FABS and aABS. 
+8.1.1. 
+The reference values FABS and aABS shall be determined in accordance with 
+the procedure described in Annex 3 to this Regulation. 
+8.2. 
+Test 2: For activation of BAS 
+8.2.1. 
+Once an emergency braking condition has been detected, systems sensitive to 
+pedal force shall show a significant increase in the ratio of: 
+(a) 
+Brake line pressure to brake pedal force, where permitted by 
+paragraph 8.2.5.; or  
+(b) 
+Vehicle deceleration to brake pedal force. 
+8.2.2. 
+The performance requirements for a category "A" BAS are met if a specific 
+brake application characteristic can be defined that exhibits a decrease of 
+between 40 per cent and 80 per cent in required brake pedal force for (FABS -
+ FT) compared to (FABS extrapolated - FT). 
+8.2.3. 
+FT and aT are threshold force and threshold deceleration as shown in Figure 1. 
+The values of FT and aT shall be supplied to the Technical Service at the time 
+of submission of the type-approval application. The value of aT shall be 
+between 3.5 m/s² and 5.0 m/s². 
+This document has been prepared by Technology Consulting Center LLC. 
+Internal Use Only. Prepared on 21.02.2023. 
+UNECE R 139-00 
+ 
+9 
+Figure 1a 
+Pedal force characteristic needed in order to achieve maximum deceleration with 
+category "A" BAS 
+ 
+8.2.4. 
+A straight line is drawn from the origin through the point FT, aT (as shown in 
+Figure 1a). The value of brake pedal force "F", at the point of intersection 
+between this line and a horizontal line defined by a=aABS, is defined  
+as FABS, extrapolated: 
+ 
+8.2.5. 
+As an alternative, which can be selected by the manufacturer, in the case of 
+vehicles of category N1, or M1 derived from those N1 vehicles, with a gross 
+vehicle mass GVM > 2,500 kg, the pedal force figures for FT, FABS,min, 
+FABS,max and FAB,extrapolated may be derived from the brake line pressure 
+response characteristic instead of the vehicle deceleration characteristic. This 
+shall be measured as the brake pedal force is increasing. 
+8.2.5.1. 
+The pressure, at which ABS cycling commences, shall be determined by 
+making five tests from 100 ± 2 km/h in which the brake pedal is applied up to 
+the level which produces ABS operation and the five pressures at which this 
+occurs as determined from front wheel pressure records, shall be recorded 
+and the mean value obtained as PABS. 
+8.2.5.2. 
+The threshold pressure PT shall be stated by the manufacturer and correspond 
+to a deceleration in the range of 2.5 - 4.5 m/s2. 
+8.2.5.3. 
+Figure 1b shall be constructed in the manner set out in paragraph 8.2.4., but 
+using line pressure measurements to define the parameters set out in 
+paragraph 8.2.5. of this Regulation where: 
+T
+ABS
+T
+ed
+extrapolat
+,
+ABS
+P
+P
+F
+F
+
+=
+ 
+Figure 1b 
+Pedal force characteristic needed in order to achieve maximum deceleration with 
+category "A" BAS 
+T
+ABS
+T
+ed
+extrapolat
+,
+ABS
+a
+a
+F
+F
+
+=
+Deceleration, a 
+Brake Pedal force, F 
+aT 
+aABS 
+FT 
+FABS, min 
+Between 3.5 and 5.0 m/s2 
+FABS, max 
+FABS, extrapolated 
+-40 % 
+-80 % 
+FAbs 
+0 % 
+-100 % 
+This document has been prepared by Technology Consulting Center LLC. 
+Internal Use Only. Prepared on 21.02.2023. 
+UNECE R 139-00 
+ 
+10 
+ 
+8.3. 
+Data evaluation 
+ 
+The presence of a category "A" BAS is proven if 
+ 
+ 
+ 
+where: 
+ 
+ 
+ 
+and 
+ 
+ 
+ 
+ 9. 
+ 
+Assessment of the presence of a category "B" BAS  
+ 
+A category "B" BAS shall meet the test requirements contained within 
+paragraphs 9.1. and 9.2. of this section. 
+9.1. 
+Test 1: Reference test to determine FABS and aABS. 
+9.1.1. 
+The reference values FABS and aABS shall be determined in accordance with 
+the procedure described in Annex 3 to this Regulation. 
+9.2. 
+Test 2: For activation of BAS 
+ 
+The vehicle shall be driven in a straight line at the test speed specified in 
+paragraph 7.4. of this Regulation. The driver shall apply the brake pedal 
+quickly according to Figure 2, simulating emergency braking so that BAS is 
+activated and ABS is fully cycling. 
+ 
+In order to activate BAS the brake pedal shall be applied as specified by the 
+car manufacturer. The manufacturer shall notify the Technical Service of the 
+required brake pedal input at the time of submission of the application for 
+type-approval. It shall be demonstrated to the satisfaction of the Technical 
+Service that the BAS activates under the conditions specified by the 
+manufacturer in accordance with paragraph 16.1.1. or 16.1.2. of Annex 1. 
+max
+,
+ABS
+ABS
+min
+,
+ABS
+F
+F
+F
+
+
+(
+)
+6.0
+F
+F
+F
+F
+T
+ed
+extrapolat
+,
+ABS
+T
+max
+,
+ABS
+
+−
+
+−
+(
+)
+2.0
+F
+F
+F
+F
+T
+ed
+extrapolat
+,
+ABS
+T
+min
+,
+ABS
+
+−
+
+−
+Line pressure, P 
+Brake Pedal force, F 
+PT 
+PABS 
+FT 
+FABS, min 
+Force change threshold 
+FABS, max 
+FABS, extrapolated 
+-40 % 
+-80 % 
+FAbs 
+0 % 
+-100 % 
+This document has been prepared by Technology Consulting Center LLC. 
+Internal Use Only. Prepared on 21.02.2023. 
+UNECE R 139-00 
+ 
+11 
+ 
+After t = t0 + 0.8 s and until the vehicle has slowed down to a speed of 
+15 km/h, the brake pedal force shall be maintained in a corridor between 
+FABS, upper and FABS, lower, where FABS, upper is 0.7 FABS and FABS, lower is 0.5 FABS. 
+ 
+The requirements are also considered to be met if, after t = t0 + 0.8 s, the pedal 
+force falls below FABS, lower provided the requirement of paragraph 9.3. is 
+fulfilled. 
+9.3. 
+Data evaluation 
+ 
+The presence of BAS 'B' is demonstrated if a mean deceleration (aBAS) of at 
+least 0.85 ∙ aABS is maintained from the time when t = t0 + 0.8 s to the time 
+when the vehicle speed has been reduced to 15 km/h. 
+Figure 2 
+Example of test 2 of a category "B" BAS system 

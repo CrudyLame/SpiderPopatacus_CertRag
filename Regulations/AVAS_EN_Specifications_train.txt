@@ -1,4 +1,4 @@
-
+6.  
 Specifications 
 6.1. 
 General specifications 
@@ -18,6 +18,7 @@ specified in Table 2 below with a margin of +3 dB(A), the specification for
 one-third octave bands and the frequency shift do not apply. 
 (updated according to Supplement 1 to the 01 series of amendments – Date of 
 entry into force: 11 January 2020) 
+
 This document has been prepared by Technology Consulting Center LLC. 
 Internal Use Only. Prepared on 21.02.2023. 
 UNECE R 138-01 
@@ -83,6 +84,7 @@ the provisions in paragraphs 6.2.1. to 6.2.3.
 Pause function 
  
 Any pause function as defined in paragraph 2.7. shall be prohibited.  
+
 This document has been prepared by Technology Consulting Center LLC. 
 Internal Use Only. Prepared on 21.02.2023. 
 UNECE R 138-01 
@@ -106,6 +108,7 @@ entry into force: 11 January 2020)
 corresponding to the overall sound pressure level of 66 dB(A) measured at a distance of 7.5 m. The 
 limit value of 66 dB(A) at a distance of 7.5 m is the lowest permitted maximum value in Regulations 
 established under the 1958 Agreement. 
+
 This document has been prepared by Technology Consulting Center LLC. 
 Internal Use Only. Prepared on 21.02.2023. 
 UNECE R 138-01 
@@ -187,3 +190,21 @@ Overall
 5,000 
 31 
 36 
+ 
+(updated according to Supplement 1 to the 01 series of amendments – Date of 
+entry into force: 11 January 2020) 
+7. 
+Modification and extension of approval of a 
+vehicle type 
+7.1. 
+Every modification of the vehicle type shall be notified to the Type Approval 
+Authority which approved the vehicle type. The Type Approval Authority may 
+then either: 
+7.1.1. 
+consider that the modifications made are unlikely to have an appreciable 
+adverse effect and that in any case the vehicle still complies with the 
+requirements, or 
+7.1.2. 
+require a further test report from the Technical Service responsible for 
+conducting the tests. 
+

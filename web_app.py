@@ -73,7 +73,12 @@ with tab2:
                         files_text.append((filename, convert_docx_to_text(file)))
 
         if files_text:
-            results = [cert_rag.cert_documents(text) for _, text in files_text]
+            # results = [cert_rag.cert_documents(text) for _, text in files_text]
+            results = [
+                {"filename": filename, **cert_rag.cert_documents(text)}
+                for filename, text in files_text
+            ]
+
             for result in results:
                 if result.get("comment"):
                     translation_prompt = f"Translate the following text from English to Russian:\n\n{result['comment']}\n\nTranslation:"
@@ -87,6 +92,10 @@ with tab2:
             st.markdown(f"**❌ Нарушений:** {violation_count}")
 
             df = pd.DataFrame(results)
+            df.rename(columns={"object": "Объект"}, inplace=True)
+            df.rename(columns={"type": "Тип"}, inplace=True)
+            df.rename(columns={"comment": "Комментарий"}, inplace=True)
+            df.rename(columns={"filename": "Файл"}, inplace=True)
             st.dataframe(df, width=1000)
 
             pdf_buffer = generate_pdf_report(df, correct_count, violation_count)

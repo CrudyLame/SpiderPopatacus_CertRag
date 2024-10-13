@@ -1,4 +1,5 @@
-5. Specifications 
+5. 
+Specifications 
 5.1. 
 General 
 5.1.1. 
@@ -29,6 +30,7 @@ batteries);
 Annex 3 to the Consolidated Resolution on the Construction of Vehicles (R.E.3), document 
 ECE/TRANS/WP.29/78/Rev. 6, Annex 3- 
 www.unece.org/trans/main/wp29/wp29wgs/wp29gen/wp29resolutions.html 
+
  
 This document has been prepared by Technology Consulting Center LLC. 
 Internal Use Only. Prepared on 09.02.2023. 
@@ -96,6 +98,7 @@ service brake that are subject to wear e.g. friction linings and drums/discs (in
 the case of drums or discs, wear assessment may not necessarily be carried out 
 at the time of periodic technical inspection). The method by which this may be 
 realized is defined in paragraphs 5.2.11.2. of this Regulation. 
+
  
 This document has been prepared by Technology Consulting Center LLC. 
 Internal Use Only. Prepared on 09.02.2023. 
@@ -163,6 +166,7 @@ the conditions prescribed for secondary braking;
 5.2.2.7. 
 If service braking is ensured by the action of the driver's muscular energy 
 assisted by one or more energy reserves, secondary braking shall, in the event 
+
  
 This document has been prepared by Technology Consulting Center LLC. 
 Internal Use Only. Prepared on 09.02.2023. 
@@ -225,6 +229,7 @@ is driven shall be as safe as practicable.
 In the event of failure in any part of the transmission of a braking system, the 
 feed to the part not affected by the failure shall continue to be ensured if 
 required for the purpose of halting the vehicle with the degree of effectiveness 
+
  
 This document has been prepared by Technology Consulting Center LLC. 
 Internal Use Only. Prepared on 09.02.2023. 
@@ -291,6 +296,7 @@ exceeds the following limits:
  
 3 The Type Approval Authority, which is to grant approval, shall have the right to check the service 
 braking system by additional vehicle test procedures. 
+
  
 This document has been prepared by Technology Consulting Center LLC. 
 Internal Use Only. Prepared on 09.02.2023. 
@@ -354,6 +360,7 @@ braking is ensured without immediate adjustment being necessary.
 Wear adjustment shall be automatic for the service brakes. Automatic wear 
 adjustment devices shall be such that after heating followed by cooling of the 
 brakes, effective braking is still ensured. In particular the vehicle shall remain 
+
  
 This document has been prepared by Technology Consulting Center LLC. 
 Internal Use Only. Prepared on 09.02.2023. 
@@ -419,6 +426,7 @@ where the prescribed secondary braking performance cannot be obtained by
 means of this brake without the use of the stored energy, be provided with a 
 warning device, giving an optical or acoustic signal when the stored energy, in 
 any part of the system, falls to a value at which without re-charging of the 
+
  
 This document has been prepared by Technology Consulting Center LLC. 
 Internal Use Only. Prepared on 09.02.2023. 
@@ -481,6 +489,7 @@ the vehicle switched on, the voltage in the electrical lines shall at maximum
 current consumption of the electrical braking system (15 A) not fall below the 
 value of 9.6 V measured at the connection. The electrical lines shall not be 
 capable of short circuiting even when overloaded; 
+
  
 This document has been prepared by Technology Consulting Center LLC. 
 Internal Use Only. Prepared on 09.02.2023. 
@@ -548,6 +557,7 @@ in Appendix 1 to Annex 3 to this Regulation.4
 4 By agreement with the Technical Service, state of charge assessment will not be required for vehicles, 
 which have an on-board energy source for charging the traction batteries and the means for regulating 
 their state of charge. 
+
  
 This document has been prepared by Technology Consulting Center LLC. 
 Internal Use Only. Prepared on 09.02.2023. 
@@ -611,6 +621,7 @@ remain possible to apply the parking braking system, whereas releasing shall
 be prevented. 
 However, the parking braking system may also be released when this action is 
 part of an operation of a remote control system fulfilling the technical 
+
  
 This document has been prepared by Technology Consulting Center LLC. 
 Internal Use Only. Prepared on 09.02.2023. 
@@ -676,6 +687,7 @@ transmission, starting from the nominal value of the energy level, the full
 with an analysis of potential failures within the control transmission and their effects. This 
 information shall be subject to discussion and agreement between the Technical Service and the 
 vehicle manufacturer. 
+
  
 This document has been prepared by Technology Consulting Center LLC. 
 Internal Use Only. Prepared on 09.02.2023. 
@@ -739,6 +751,7 @@ A red warning signal, indicating failures defined elsewhere in this Regulation
 within the vehicle braking equipment which preclude achievement of the 
 prescribed service braking performance and/or which preclude the functioning 
 of at least one of two independent service braking circuits; 
+
  
 This document has been prepared by Technology Consulting Center LLC. 
 Internal Use Only. Prepared on 09.02.2023. 
@@ -806,6 +819,7 @@ braking
 May generate 
 the signal 
 Shall generate the signal 
+
  
 This document has been prepared by Technology Consulting Center LLC. 
 Internal Use Only. Prepared on 09.02.2023. 
@@ -866,4 +880,12 @@ Power-driven vehicles of category M1 and N1 equipped with temporary-use
 spare wheels/tyres shall satisfy the relevant technical requirements of Annex 3 
 to UN Regulation No. 64. 
  
+ 
+ 
+6 During a "selective braking" event, the function may change to "automatically commanded braking". 
+
+ 
+This document has been prepared by Technology Consulting Center LLC. 
+Internal Use Only. Prepared on 09.02.2023. 
+UNECE R 13-H-01 
  

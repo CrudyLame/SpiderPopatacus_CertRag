@@ -11,18 +11,11 @@ from pydantic import Field
 
 
 class RegulationObject(str, Enum):
-    EMC = "EMC"
-    DOORS = "Doors"
-    STEERING_MECHANISM = "Steering mechanism"
     BRAKING = "Braking"
-    SAFETY_BELT = "Safety belt"
-    SEATS = "Seats"
-    AUDIBLE_WARNING_DEVICES = "Audible warning devices"
-    SPEEDOMETER_AND_ODOMETER = "Speedometer and odometer"
-    STEERING_EQUIPMENT = "Steering equipment"
-    HEATING_SYSTEM = "Heating system"
     AVAS = "AVAS"
     WIPE_AND_WASH = "Wipe and wash"
+    HVAC = "HVAC"
+    BRAKE_ASSIST = "Brake assist"
 
 
 @dataclass

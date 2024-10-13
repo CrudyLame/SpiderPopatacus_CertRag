@@ -1,8 +1,12 @@
 from llm import LLMModel
 from store import FAISSVectorStore
 from typing import List
-
-# ADD RAPTOR
+from raptor.raptor import (
+    BaseSummarizationModel,
+    BaseQAModel,
+    BaseEmbeddingModel,
+    RetrievalAugmentationConfig,
+)
 
 
 def reranker(query, retrieved_segments):
@@ -29,6 +33,7 @@ class CertRAG:
         self.llm = LLMModel()
         self.faiss_vector_store = FAISSVectorStore(index_path="db/faiss_index")
         self.rag_type = rag_type
+        # ADD prod raptor as alernative rag
 
     def cert_documents(self, data: str):
         retrieved_objects = self.faiss_vector_store.search_similar(data, k=6)

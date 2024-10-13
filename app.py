@@ -27,4 +27,5 @@ Driver stops moving in reverse
 #     print(f"Score: {score}\n Object: {obj}\n =========================\n")
 
 cert_rag = CertRAG(rag_type="default")
+
 print(cert_rag.cert_documents(requirement))
