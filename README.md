@@ -37,3 +37,8 @@
 5. Запустится веб-интерфейс и можно будет пользоваться приложением
 
 
+# My Project
+
+Классная демонстрация работы проекта:
+
+![Demo GIF](https://github.com/CrudyLame/SpiderPopatacus_CertRag/blob/master/misc/ScreenCast.gif)
