@@ -4,7 +4,7 @@ import io
 import os
 from utils import convert_docx_to_text
 import pandas as pd
-
+from utils import generate_pdf_report
 from rag import CertRAG
 
 cert_rag = CertRAG(rag_type="default")
@@ -88,6 +88,15 @@ with tab2:
 
             df = pd.DataFrame(results)
             st.dataframe(df, width=1000)
+
+            pdf_buffer = generate_pdf_report(df, correct_count, violation_count)
+
+            st.download_button(
+                label="Скачать (PDF)",
+                data=pdf_buffer,
+                file_name="report.pdf",
+                mime="application/pdf",
+            )
 
             excel_buffer = io.BytesIO()
             with pd.ExcelWriter(excel_buffer, engine="xlsxwriter") as writer:
