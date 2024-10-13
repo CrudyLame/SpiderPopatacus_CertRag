@@ -1,17 +1,9 @@
 import streamlit as st
 import pandas as pd
 import io
-
-# from docx import Document
 import os
-from reportlab.lib import colors
-from reportlab.lib.pagesizes import letter
-from reportlab.platypus import SimpleDocTemplate, Table, TableStyle
-import tempfile
-from typing import List, Dict
 from utils import convert_docx_to_text
 import pandas as pd
-import random
 
 from rag import CertRAG
 
@@ -22,7 +14,6 @@ def process_single_requirement(text):
     compliance_result = cert_rag.cert_documents(text)
     return {
         "Объект": compliance_result["object"],
-        # "Регламент": compliance_result["regulation_paragraph"],
         "Тип": compliance_result["type"],
         "Комментарий": compliance_result["comment"],
     }
@@ -38,7 +29,6 @@ with tab1:
     if st.button("Проверить 🔎"):
         if requirement_text:
             result = process_single_requirement(requirement_text)
-            # Determine the verdict icon
             verdict_icon = (
                 "✅"
                 if result.get("Тип") in ["0", "1"]
@@ -49,11 +39,10 @@ with tab1:
             if "Рекомендация" in result:
                 st.markdown(f"**Рекомендация:** {result['Рекомендация']}")
 
-            # Display other items
             for key, value in result.items():
                 if key != "Рекомендация":
                     if key == "Комментарий":
-                        # Translate the comment to Russian
+
                         translation_prompt = f"Translate the following text from English to Russian:\n\n{value}\n\nTranslation:"
                         russian_translation = cert_rag.llm.generate_response(
                             translation_prompt, {}
@@ -65,7 +54,6 @@ with tab1:
             st.warning("Пожалуйста, введите текст требования.")
 
 with tab2:
-    # st.header("Загрузка имеющихся требований")
     uploaded_files = st.file_uploader(
         "Загрузите файлы требований (.docx или .txt)",
         accept_multiple_files=True,

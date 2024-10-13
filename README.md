@@ -1,4 +1,4 @@
-# Классная демонстрация работы проекта:
+# МегаДемка:
 
 ![Demo GIF](https://github.com/CrudyLame/SpiderPopatacus_CertRag/blob/master/misc/ScreenCast.gif)
 
@@ -25,19 +25,48 @@
 ## Настройка
 
 1. Клонируйте репозиторий
-2. Установите зависимости: `pip install -r requirements.txt`
-3. Настройте переменные окружения:
+2. Настройте переменные окружения:
    - Создайте файл `.env` в корневой директории проекта
-   - Добавьте ваш ключ API OpenAI: `OPENAI_API_KEY=ваш_ключ_api_здесь`
-4. Подготовьте индекс FAISS:
+   - Добавьте ваш ключ API OpenAI: 
+     ```
+     OPENAI_API_KEY=ваш_ключ_api_здесь
+     ```
+   - При необходимости настройте прокси:
+     - Для HTTP прокси: 
+       ```
+       HTTP_PROXY=http://your_proxy:port
+       ```
+     - Для HTTPS прокси: 
+       ```
+       HTTPS_PROXY=https://your_proxy:port
+       ```
+3. Подготовьте индекс FAISS:
    - Убедитесь, что у вас есть предварительно созданный индекс FAISS в директории `db/faiss_index` или же он будет создан автоматически
 
 ## Использование
-0. Положить .txt файлы с текстом в папку RegDocs 
-1. Выполнить pip install poetry
-2. poetry install
-3. poetry shell
-4. streamlit run web_app.py --server.headless True --server.enableXsrfProtection false
-5. Запустится веб-интерфейс и можно будет пользоваться приложением
+
+1. Положите `.txt` файлы для индексации в папку `RegDocs`
+2. Выполните следующие команды:
+    
+    Установка Poetry
+   ```bash
+   pip install poetry
+   ```
+
+   Установка зависимостей проекта
+   ```bash
+   poetry install
+   ```
+
+   Активация виртуального окружения Poetry
+   ```bash
+   poetry shell
+   ```
+
+   Запуск Streamlit приложения
+   ```bash
+   streamlit run web_app.py --server.headless True --server.enableXsrfProtection false
+   ```
+3. Запустится веб-интерфейс, и вы сможете начать пользоваться приложением
 
 
