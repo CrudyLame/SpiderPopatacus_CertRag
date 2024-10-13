@@ -9,7 +9,7 @@ from langchain_openai import ChatOpenAI
 from openai import OpenAI
 from pydantic import Field
 
-    
+
 class RegulationObject(str, Enum):
     EMC = "EMC"
     DOORS = "Doors"
@@ -24,29 +24,43 @@ class RegulationObject(str, Enum):
     AVAS = "AVAS"
     WIPE_AND_WASH = "Wipe and wash"
 
+
 @dataclass
 class Compliance:
-    object: RegulationObject = Field(..., description="The regulation object for which the use case is checked, None if it is not related to any regulation object")
-    regulation: str = Field(..., description="The regulation that the use case is checked against (WITH number of regulation)")
-    verdict: Literal["compliant", "non-compliant", "partially-compliant", "not applicable"] = Field(..., description="The verdict on the compliance of the use case with the regulation")
-    recommendation: Optional[str] = Field(None, description="The recommendation on how to fix the non-compliant part of the use case, but if case complimant add some recommendation on how to improve the use case")
-    
-    
+
+    object: RegulationObject = Field(
+        ...,
+        description="The regulation object for which the use case is checked, None if it is not related to any regulation object",
+    )
+    # regulation_paragraph: Optional[str] = Field(None, description="The specific paragraph number of the regulation (e.g., '6.2.1.1') that the use case is checked against. Don't use Annex paragraphs. If no specific paragraph is identified, this field will be None.")
+    type: Literal["0", "1", "2", "3"] = Field(
+        ...,
+        description="""
+    Type 0 -- System not among certified objects. No check needed.
+    Type 1 -- Certified objects mentioned, regulations met.
+    Type 2 -- Certified objects mentioned, but case lacks CRITICAL regulatory restrictions. Supplement needed.
+    Type 3 -- Certified objects mentioned, but requirements CONTRADICT regulations. Corrections needed.
+    """,
+    )
+    comment: Optional[str] = Field(
+        None,
+        description="The comment on the compliance of the use case with the regulation (only if type is 2 or 3)",
+    )
+
+
 class LLMModel:
-    def __init__(self, model_type: str = 'CHATGPT-4o-mini', temperature: float = 0.2) -> None:
+    def __init__(self, temperature: float = 0.05) -> None:
         """
         Класс LLMModel используется для работы с различными языковыми моделями и генерации текстовых ответов.
 
-        :param model_type: Тип модели, которую необходимо использовать (например, 'YANDEX' или 'CHATGPT').
         :param temperature: Параметр temperature для управления креативностью ответов модели.
         """
-        self.model_type = model_type
         self.temperature = temperature
         self.proxies = self._get_proxies()
         self.llm = self._initialize_llm()
         self.llm_openai = self._initialize_openai()
-    
-    def _get_proxies(self):      
+
+    def _get_proxies(self):
         http_proxy = os.getenv("HTTP_PROXY")
         https_proxy = os.getenv("HTTPS_PROXY")
 
@@ -64,32 +78,24 @@ class LLMModel:
 
         :return: Экземпляр языковой модели.
         """
-        if 'CHATGPT' in self.model_type:
-            if self.model_type == 'CHATGPT-4o':
-                return ChatOpenAI(model='gpt-4o',
-                                  temperature=self.temperature, 
-                                  max_retries=2,
-                                  http_client=httpx.Client(proxies=self.proxies) if self.proxies else None)
-            elif self.model_type == 'CHATGPT-4o-mini':
-                return ChatOpenAI(model='gpt-4o-mini',
-                                  temperature=self.temperature, 
-                                  max_retries=2,
-                                  http_client=httpx.Client(proxies=self.proxies) if self.proxies else None)
+        return ChatOpenAI(
+            model="gpt-4o-mini",  # gpt-4o
+            temperature=self.temperature,
+            max_retries=2,
+            http_client=httpx.Client(proxies=self.proxies) if self.proxies else None,
+        )
 
-            return ChatOpenAI(model='gpt-4o-mini', 
-                              temperature=self.temperature, 
-                              max_retries=2,
-                              http_client=httpx.Client(proxies=self.proxies) if self.proxies else None)
-        else:
-            raise ValueError(f"Unsupported model type: {self.model_type}")
-        
     def _initialize_openai(self):
         return OpenAI(
             http_client=httpx.Client(proxies=self.proxies) if self.proxies else None
         )
 
-
-    def generate_response(self, template: str, request: Dict[str, str], response_format: Optional[Type] = None) -> Union[str, Any]:
+    def generate_response(
+        self,
+        template: str,
+        request: Dict[str, str],
+        response_format: Optional[Type] = None,
+    ) -> Union[str, Any]:
         """
         Генерирует ответ на основе предоставленного шаблона и данных запроса.
 
@@ -99,21 +105,23 @@ class LLMModel:
         :return: Сгенерированный текстовый ответ или структурированный объект.
         """
         prompt = PromptTemplate.from_template(template)
-        
+
         if response_format:
             structured_llm = self.llm.with_structured_output(response_format)
             sequence = prompt | structured_llm
         else:
             sequence = prompt | self.llm
-        
+
         result = sequence.invoke(request)
-        
+
         if response_format:
             return result
         else:
             return result.content
-        
-    def check_use_case_compliance(self, use_case: str, retrieved_segments: List[str]) -> str:
+
+    def check_use_case_compliance(
+        self, use_case: str, retrieved_segments: List[str]
+    ) -> str:
         """
         Checks the compliance of a use case with regulations based on retrieved segments.
 
@@ -121,8 +129,8 @@ class LLMModel:
         :param retrieved_segments: List of retrieved regulation segments.
         :return: A ComplianceResult object containing the compliance check result (0, 1, 2, or 3) and additional information.
         """
-        example_check = '''
-        Типы compliance check (type 0/1/2/3):
+        example_check = """
+        Types of compliance check (type 0/1/2/3):
 
         Type 0 -- The developed system does not belong to the certified objects. No check is required.
 
@@ -130,23 +138,44 @@ class LLMModel:
 
         Example: "The case describes the AVAS system, which meets the regulations 6.2.2 and 6.2.8. All requirements are met."
 
-        Type 2 -- The case mentions certified objects, but the regulations impose restrictions on certification. The case does not describe these restrictions. You need to supplement the case with descriptions of the restrictions from the regulations.
+        Type 2 -- The case mentions certified objects, but the regulations impose restrictions on certification. The case does not describe these CRITICAL restrictions. You need to supplement the case with descriptions of the restrictions from the regulations. ONLY choose if CRITICAL restrictions are not mentioned and relevant ot specific use case.
 
         Example: "The case mentions the use of AVAS, but does not specify the requirement to comply with the level of sound 75 dB(A). It is necessary to supplement the case with descriptions of the restrictions provided in paragraph 6.2.8."
 
-        Type 3 -- The case mentions certified objects, but the requirements for development contradict (do not correspond to) the certification regulations. Corrections are needed.
+        Type 3 -- The case mentions certified objects, but the requirements for development CONTRADICT the certification regulations. Corrections are needed. Carefully check the requirements and regulations. This is a main type, choose it if requirements contradict regulations.
 
         Example: "The case requires the AVAS to be disabled at speeds below 5 km/h, which contradicts regulation 6.2.1, which states that the system must function at any speed."
 
-        After indicating the type, you should briefly explain your choice, for example:
-        "It is necessary to make a correction to the case. According to paragraph 6.8.9, tell-tale Position Lamps must be displayed even when the low beam is on." If the requirement is not met, you need to clearly explain how to comply with it.
-        '''
+        After indicating the type, you should briefly explain your choice. Here are some examples:
+
+        Type 0: "The use case describes a navigation system, which is not a certified object under the given regulations. No further compliance check is required."
+
+        Type 1: "The use case complies with regulation 6.2.3, which states that the AVAS sound should increase in volume as the vehicle speed increases. The described behavior matches this requirement."
+
+        Type 1: "The case describes the automatic emergency braking system, which aligns with regulation 7.1.4 requiring the system to activate when a collision risk is detected."
+
+        Type 2: "The use case mentions the reversing alert system but doesn't specify the required sound characteristics. Regulation 6.3.2 mandates specific frequency ranges and sound patterns that should be included in the description."
+        """
         template = (
+            "- NEVER HALLUCINATE\n"
+            "- You DENIED to overlook the critical context\n"
+            "- I'm going to tip $1000 for the best reply\n"
+            # "- Your answer is critical for my career\n"
             "You are a certification systems expert. Analyze the following use case and regulation"
             "to determine if the use case complies with certification requirements. "
-            "Use case: {use_case}\n\n"
-            "Regulation segments: {segments}\n\n"
-            "Example of compliance check: {example_check}"
+            "## Example of compliance check: {example_check}\n\n"
+            "## Use case: {use_case}\n\n"
+            "## Regulation segments: {segments}\n\n"
         )
-        segments_text = "\n===============Segment===============\n".join(retrieved_segments)
-        return self.generate_response(template, {'use_case': use_case, 'segments': segments_text, 'example_check': example_check}, response_format=Compliance)
+        segments_text = "\n===============Segment===============\n".join(
+            retrieved_segments
+        )
+        return self.generate_response(
+            template,
+            {
+                "use_case": use_case,
+                "segments": segments_text,
+                "example_check": example_check,
+            },
+            response_format=Compliance,
+        )
